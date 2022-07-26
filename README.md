@@ -1,13 +1,16 @@
-<h1>FazenTECH</h1>
+<h1>Micro Frontend - Multistack</h1>
 
 <p align="center">
-  <img src="https://img.shields.io/static/v1?label=REACT%20NATIVE&message=FRAMEWORK&color=00BEF5&style=for-the-badge&logo=REACT"/>
-  <img src="https://img.shields.io/static/v1?label=REACT%20JS&message=LIBRARY&color=0597ff&style=for-the-badge&logo=REACT"/>
+  <img src="https://img.shields.io/static/v1?label=Docker&message=Container&color=00BEF5&style=for-the-badge&logo=docker"/>
+  <img src="https://img.shields.io/static/v1?label=nginx&message=webserver&color=339933&style=for-the-badge&logo=nginx"/>
   <img src="https://img.shields.io/static/v1?label=NODEJS&message=Runtime%20Built&color=339933&style=for-the-badge&logo=Node.js"/>
+    <img src="https://img.shields.io/static/v1?label=React&message=Library&color=00BEF5&style=for-the-badge&logo=REACT"/>
+        <img src="https://img.shields.io/static/v1?label=Angular&message=Framework&color=00BEF5&style=for-the-badge&logo=ANGULAR"/>
+            <img src="https://img.shields.io/static/v1?label=Vue jS&message=Framework&color=00BEF5&style=for-the-badge&logo=vue"/>
   <img src="https://img.shields.io/static/v1?label=JAVASCRIPT&message=Language&color=F7DF1E&style=for-the-badge&logo=javascript"/>
+    <img src="https://img.shields.io/static/v1?label=typescript&message=Language&color=F7DF1E&style=for-the-badge&logo=typescript"/>
   <img src="http://img.shields.io/static/v1?label=License&message=MIT&color=green&style=for-the-badge"/>
-  <img src="http://img.shields.io/static/v1?label=TESTES&message=%3E100&color=GREEN&style=for-the-badge"/>
-  <img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=RED&style=for-the-badge"/>
+  
 </p>
 
 > Status do Projeto: :warning: (em desenvolvimento)
@@ -36,82 +39,10 @@ a comunicação com o servidor e banco de dados da fazenda.
 </p>
 <p>E como extra, fizemos o backend (api) e uma versão web.</p>
 
-## Contextualização do PTG
-
-Uma das principais fontes de renda da fazenda de Lúcia é a venda do que ela produz, como o leite,
-legumes, verduras, entre outros produtos. Com a informatização da fazenda, tudo está ligado a um
-sistema robusto, capaz de gerenciar cada atividade e produções da fazenda, como por exemplo,
-controlar seus produtos e estoques.
-Lúcia vende em atacado para grandes varejistas, de forma tradicional, porém ela gostaria de expandir
-o negócio, e começar a oferecer seus produtos ao consumidor final! Para este fim, ela precisa de um
-aplicativo mobile para que os consumidores possam visualizar todo seu catálogo de produtos, efetuar
-seus pedidos, pagar e agendar a entrega.
-
-## Funcionalidades
-
-:heavy_check_mark: Funcionalidade 1
-
-:heavy_check_mark: Funcionalidade 2
-
-:heavy_check_mark: Funcionalidade 3
-
 
 ## Layout da Aplicação :dash:
 
-<table align="center">
-	<tr align="center"><td><img src="https://github.com/gusbdev/FazenTECH/blob/master/media-project/screenshots/app/Screenshot_20201030-221332.png" width="300" height="500" /><br /><sub>Tela inicial</sub></td><td><img src="https://github.com/gusbdev/FazenTECH/blob/master/media-project/screenshots/app/Screenshot_20201030-221346.png" width="300" height="500" /><br /><sub>Tela de login</sub></td><td><img src="https://github.com/gusbdev/FazenTECH/blob/master/media-project/screenshots/app/Screenshot_20201030-221354.png" width="300" height="500" /><br /><sub>Tela de cadastro de usuário</sub></td></tr>
-	<tr align="center"><td><img src="https://github.com/gusbdev/FazenTECH/blob/master/media-project/screenshots/app/Screenshot_20201030-221629.png" width="300" height="500" /><br /><sub>Tela com os produtos listados</sub></td><td><img src="https://github.com/gusbdev/FazenTECH/blob/master/media-project/screenshots/app/Screenshot_20201030-223038.png" width="300" height="500" /><br /><sub>Tela de checkout</sub></td></tr>
-</table>
-
-<caption>(Versão Web)</caption>
-<p align="center">
-<img src="https://github.com/gusbdev/FazenTECH/blob/master/media-project/web-login-register.gif" />
-</p>
-
 ## Pré-requisitos
-
-## Mobile
-
-:warning: [Node](https://nodejs.org/en/download/)
-
-:warning: [React Native](https://reactnative.dev/docs/environment-setup)
-
-<p>Seguir os passos de configuração do ambiente</p>
-
-## Backend
-
-:warning: [Node](https://nodejs.org/en/download/)
-
-## Frontend
-
-:warning: [Node](https://nodejs.org/en/download/)
-
-:warning: [ReactJS](https://pt-br.reactjs.org/docs/create-a-new-react-app.html#create-react-app)
-
-## Banco de dados
-
-Para poder salvar os dados no backend, precisa de um banco SQL instalado. Como se trata de apenas um trabalho acadêmico, recomenda-se instalar um servidor de código aberto, vamos recomendar o XAMPP. Ele possui versões para os principais sistemas operacionais (Windows, Linux e MacOS).
-
-:warning: [XAMPP](https://www.apachefriends.org/pt_br/download.html)
-
-Depois de instalado, abra o phpMyAdmin ou o terminal e crie o banco de dados. Pode dar o nome que preferir para o banco, só lembre de alterar depois no arquivo [api/mysql.js](https://github.com/gusbdev/FazenTECH/blob/master/api/mysql.js). Depois crie as seguintes tabelas:
-
-```
-create table usuario(
-	id int primary key auto_increment,
-    email varchar(200),
-    nome varchar(200),
-    senha varchar(200)
-);
-
-create table produto(
-	id int primary key auto_increment,
-    nome varchar(200),
-    preco double,
-    descricao varchar(2000),
-    foto blob null
-);
-```
 
 ## Como rodar a aplicação :arrow_forward:
 
