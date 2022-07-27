@@ -23,8 +23,7 @@
 
 ## Descrição do projeto
 
-<p align="justify">
-</p>
+<p align="justify">Este projeto visa demonstrar o gerenciamento de Micro Frontends, usando Docker + NGINX para gerenciar 3 das principais tecnologias de Frontend do mercado: <a href="https://angular.io/">Angular</a>, <a href="https://reactjs.org/">React</a> e <a href="https://vuejs.org/">Vue</a>.</p>
 
 
 ## Layout da Aplicação :dash:
