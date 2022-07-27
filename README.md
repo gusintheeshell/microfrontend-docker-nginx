@@ -28,6 +28,7 @@
 
 
 ## Layout da Aplicação :dash:
+<center><img src="https://raw.githubusercontent.com/gusbdev/microfrontend-docker-nginx/main/assets/gif-working.gif" /></center>
 
 ## Pré-requisitos
 - [Docker](https://docs.docker.com/engine/install/ubuntu/)
