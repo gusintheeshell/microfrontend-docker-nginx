@@ -38,7 +38,11 @@
 No terminal, clone o projeto:
 
 ```
-git clone https://github.com/gusbdev/microfrontend-docker-nginx
+$ git clone https://github.com/gusbdev/microfrontend-docker-nginx
+```
+Depois, na pasta raiz do projeto, rode:
+```
+$ docker-compose up
 ```
 ## Desenvolvedores/Contribuintes :octocat:
 
